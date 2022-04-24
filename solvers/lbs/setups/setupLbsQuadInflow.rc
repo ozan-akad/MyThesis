@@ -1,0 +1,62 @@
+[FORMAT]
+2.0
+
+[DATA FILE]
+data/lbsInflow2D.h
+
+[MESH FILE]
+/home/ozan/Desktop/libparanumal/meshes/boltzmannCouette2D.msh
+
+[MESH DIMENSION]
+2
+
+[ELEMENT TYPE] # number of edges
+4
+
+[BOX NX]
+10
+
+[BOX NY]
+10
+
+[BOX BOUNDARY FLAG]
+1
+
+[POLYNOMIAL DEGREE]
+4
+
+[THREAD MODEL]
+Serial
+
+[PLATFORM NUMBER]
+0
+
+[DEVICE NUMBER]
+0
+
+[VISCOSITY]
+0.001
+
+[VELOCITY MODEL]
+D2Q9
+
+[TIME INTEGRATOR]
+LSERK4
+
+[CFL NUMBER]
+0.5
+
+[START TIME]
+0
+
+[FINAL TIME]
+10.0
+
+[OUTPUT INTERVAL]
+1.0
+
+[OUTPUT TO FILE]
+TRUE
+
+[OUTPUT FILE NAME]
+lbs_Inflow
