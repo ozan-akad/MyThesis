@@ -38,7 +38,7 @@ data/insLidCavity2D.h
 4
 
 [THREAD MODEL]
-Serial
+CUDA
 
 [PLATFORM NUMBER]
 0
@@ -47,7 +47,7 @@ Serial
 0
 
 [VISCOSITY]
-0.1
+0.001
 
 # can be CUBATURE or COLLOCATION
 [ADVECTION TYPE]
