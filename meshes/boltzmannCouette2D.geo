@@ -13,3 +13,8 @@ Physical Line("Inflow",2) = {3};
 Physical Line("Wall",1)   = {1,2,4};
 
 Physical Surface("Domain") = {6};
+
+# element sayısı 230 icin r = 0.12
+# element sayısı 1054 icin r = 0.05 
+# element sayısı 1562 icin r = 0.0425
+# element sayısı 2484 icin r = 0.03315
